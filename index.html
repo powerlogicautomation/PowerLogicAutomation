@@ -1,142 +1,324 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/favicon.ico">
-    <title>Powerlogic Automation</title>
-    <style>@import url('css/style.css');</style>
+    
+    <title>Powerlogic Automation | Industrial Automation & VFD Solutions Noida</title>
+    <meta name="description" content="Leading Industrial Automation company in Noida. We provide expert VFD solutions, PLC Programming, Control Panels, Servo Systems, and 24/7 technical support in Delhi NCR.">
+    <meta name="keywords" content="Industrial Automation Noida, VFD Dealers India, PLC Programming Services, Control Panel Manufacturers, Servo Motors, SCADA Systems, Powerlogic Automation">
+    <meta name="author" content="Powerlogic Automation">
+    <meta name="robots" content="index, follow"> <meta name="geo.region" content="IN-UP">
+    <meta name="geo.placename" content="Noida">
+    <meta name="geo.position" content="28.5355;77.3910"> <meta name="ICBM" content="28.5355, 77.3910">
+
+    <meta property="og:type" content="business.business">
+    <meta property="og:title" content="Powerlogic Automation | Industrial Solutions">
+    <meta property="og:description" content="Expert Electrical & Automation services in Noida. VFDs, PLCs, and Motion Control solutions.">
+    <meta property="og:url" content="https://www.powerlogicautomation.com/"> <meta property="og:image" content="https://www.powerlogicautomation.com/images/social-share.jpg"> <meta property="og:site_name" content="Powerlogic Automation">
+
+    <link rel="canonical" href="https://powerlogicautomation.netlify.app/"> <link rel="icon" type="image/x-icon" href="/images/social-share.jpg.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <nav>
-        <div class="logo">
-            <img src="./images/logo.png" alt="Powerlogic Automation Logo">
-            <img src="./images/logo-text.png" alt="Powerlogic Automation Logo Text">
-        </div>
+    <nav id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="./images/social-share.jpg.png" alt="PowerLogic Logo" class="logo-img">
 
-        <ul class="nav-links">
+                <div class="logo-text">
+                    <div class="main-text">
+                        <span class="power">POWER</span><span class="logic">LOGIC</span>
+                    </div>
+                    <div class="sub-text">AUTOMATION</div>
+                </div>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <!-- <li><a href="#stats" class="nav-link">Results</a></li> -->
+                <li><a href="#contact" class="nav-link btn-contact">Contact Us</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mobile-menu">
+        <ul class="mobile-nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
+    </div>
 
-    </nav>
-
-    <section class="hero" id="home">
-        <h1>Powerlogic Automation</h1>
-        <p>ELECTRICALS | VFD | AUTOMATION</p>
-        <a href="#services" class="cta-btn">Our Solutions</a>
-    </section>
-
-    <section id="about">
-        <div class="about-container">
-            <div class="about-text">
-                <div class="section-title" style="text-align: left;">
-                    <h2>Expertise in Industrial Automation</h2>
-                    <div class="underline" style="margin: 10px 0;"></div>
-                </div>
-                <p>Powerlogic Automation is a leading provider of high-performance electrical and automation solutions. We specialize in optimizing industrial processes through cutting-edge AC/DC drives, PLC systems, and precision motion control.</p>
-                <br>
-                <p>Based in Noida, we serve a diverse range of industries, delivering reliability and technical excellence to enhance your operational efficiency.</p>
-            </div>
-            <div class="about-img">
-                <img src="https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?auto=format&fit=crop&q=80&w=1000" alt="Industrial Control Panel">
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+            <h1>Future-Ready <span class="highlight">Automation</span></h1>
+            <p>Empowering industries with precision Electricals, VFDs, and Advanced Control Systems.</p>
+            <div class="hero-btns">
+                <a href="#services" class="btn btn-primary">Explore Solutions</a>
+                <a href="#contact" class="btn btn-outline">Get a Quote</a>
             </div>
         </div>
+        
+        <a href="#about" class="scroll-down">
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
     </section>
 
-    <section id="services" style="background: var(--accent-blue);">
-        <div class="section-title">
-            <h2>Our Core Services</h2>
-            <div class="underline"></div>
-        </div>
-        <div class="services-grid">
-            <div class="service-card">
-                <h3>AC/DC Drives & VFD</h3>
-                <p>Comprehensive drive solutions for precise speed and torque control in heavy machinery.</p>
+    <section id="about" class="section-padding">
+        <div class="container about-container">
+            <div class="about-text" data-aos="fade-right">
+                <h4 class="sub-heading">WHO WE ARE</h4>
+                <h2>Engineering Excellence in <br>Industrial Automation</h2>
+                <div class="divider"></div>
+                <p>Powerlogic Automation is a premier provider of high-performance electrical and automation ecosystems. We specialize in optimizing industrial processes through cutting-edge AC/DC drives, PLC systems, and precision motion control.</p>
+                <ul class="feature-list">
+                    <li><i class="fa-solid fa-check-circle"></i> ISO Certified Processes</li>
+                    <li><i class="fa-solid fa-check-circle"></i> 24/7 Technical Support</li>
+                    <li><i class="fa-solid fa-check-circle"></i> Custom Control Panel Design</li>
+                </ul>
+                <a href="#contact" class="btn btn-secondary">Learn More</a>
             </div>
-            <div class="service-card">
-                <h3>PLC Systems</h3>
-                <p>Advanced Programmable Logic Controller programming and hardware integration.</p>
-            </div>
-            <div class="service-card">
-                <h3>Servo & Motion</h3>
-                <p>High-precision servo systems for complex motion tasks and robotics.</p>
-            </div>
-            <div class="service-card">
-                <h3>Control Panels</h3>
-                <p>Custom-designed industrial electrical panels built for safety and durability.</p>
-            </div>
-            <div class="service-card">
-                <h3>Gearbox & Motors</h3>
-                <p>Reliable power transmission components for all industrial applications.</p>
-            </div>
-            <div class="service-card">
-                <h3>Automation Solutions</h3>
-                <p>End-to-end turnkey automation projects tailored to your specific needs.</p>
+            <div class="about-img" data-aos="zoom-in">
+                <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=1000" alt="Industrial Engineer">
+                <!-- <div class="experience-badge">
+                    <span class="years">10+</span>
+                    <span class="text">Years of<br>Excellence</span>
+                </div> -->
             </div>
         </div>
     </section>
 
-    <section>
-        <div class="section-title">
-            <h2>Why Choose Us</h2>
-            <div class="underline"></div>
+    <!-- <section id="stats" class="stats-section">
+        <div class="container stats-grid">
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="0">
+                <i class="fa-solid fa-project-diagram"></i>
+                <h3 class="counter" data-target="500">0</h3>
+                <p>Projects Completed</p>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                <i class="fa-solid fa-users"></i>
+                <h3 class="counter" data-target="150">0</h3>
+                <p>Happy Clients</p>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                <i class="fa-solid fa-award"></i>
+                <h3 class="counter" data-target="25">0</h3>
+                <p>Industry Awards</p>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="fa-solid fa-clock"></i>
+                <h3 class="counter" data-target="24">0</h3>
+                <p>Hours Support</p>
+            </div>
         </div>
-        <div class="services-grid">
-            <div style="text-align: center;">
-                <h4 style="color: var(--primary-blue);">Reliability</h4>
-                <p>We use only industry-standard components for maximum uptime.</p>
+    </section> -->
+
+    <section id="services" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h4 class="sub-heading">OUR EXPERTISE</h4>
+                <h2>Core Industrial Services</h2>
+                <div class="divider center-divider"></div>
             </div>
-            <div style="text-align: center;">
-                <h4 style="color: var(--primary-blue);">Expertise</h4>
-                <p>Years of experience in troubleshooting and system design.</p>
-            </div>
-            <div style="text-align: center;">
-                <h4 style="color: var(--primary-blue);">Support</h4>
-                <p>Round-the-clock technical assistance for your critical systems.</p>
+
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-microchip"></i>
+                    </div>
+                    <h3>AC/DC Drives & VFD</h3>
+                    <p>Comprehensive drive solutions for precise speed and torque control in heavy machinery.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <h3>PLC Systems</h3>
+                    <p>Advanced Programmable Logic Controller programming and hardware integration.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <h3>Servo & Motion</h3>
+                    <p>High-precision servo systems for complex motion tasks and robotics integration.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-server"></i>
+                    </div>
+                    <h3>Control Panels</h3>
+                    <p>Custom-designed industrial electrical panels built for safety and durability.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-cogs"></i>
+                    </div>
+                    <h3>Gearbox & Motors</h3>
+                    <p>Reliable power transmission components for all industrial applications.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-industry"></i>
+                    </div>
+                    <h3>Turnkey Automation</h3>
+                    <p>End-to-end turnkey automation projects tailored to your specific needs.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="contact" style="background: var(--bg-gray);">
-        <div class="section-title">
-            <h2>Get In Touch</h2>
-            <div class="underline"></div>
-        </div>
-        <div class="contact-wrapper">
-            <div class="contact-info">
-                <div>
-                    <h3>Office Address</h3>
-                    <p>115A, Gali No. 1, Sector-66, Noida,<br>Gautam Buddha Nagar (U.P.) 201301</p>
+    <!-- <section class="testimonials-section section-padding">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <h2>Client Testimonials</h2>
+                <div class="divider center-divider"></div>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card" data-aos="fade-right">
+                    <p>"Powerlogic transformed our manufacturing line efficiency by 40%. Highly professional team."</p>
+                    <div class="client-info">
+                        <h4>Rajesh Kumar</h4>
+                        <span>Plant Manager, Tata Steel</span>
+                    </div>
                 </div>
-                <div>
-                    <h3>Phone</h3>
-                    <p>+91 85272 66314</p>
-                </div>
-                <div>
-                    <h3>Email</h3>
-                    <p>powerlogicautomation26@gmail.com</p>
+                <div class="testimonial-card" data-aos="fade-left">
+                    <p>"Their technical support for VFD troubleshooting is unmatched in Noida. Highly recommended."</p>
+                    <div class="client-info">
+                        <h4>Amit Verma</h4>
+                        <span>Director, Verma Textiles</span>
+                    </div>
                 </div>
             </div>
-            <div class="contact-form">
-                <form id="pwrForm">
-                    <input type="text" id="name" placeholder="Full Name" required>
-                    <input type="email" id="email" placeholder="Email Address" required>
-                    <textarea id="message" rows="5" placeholder="Your Requirement" required></textarea>
-                    <button type="submit" class="submit-btn">SEND MESSAGE</button>
-                    <p id="formFeedback" style="margin-top: 15px; font-weight: bold; text-align: center;"></p>
+        </div>
+    </section> -->
+
+    <section id="contact" class="section-padding">
+        <div class="container contact-wrapper">
+            <div class="contact-info" data-aos="fade-right">
+                <h4 class="sub-heading">GET IN TOUCH</h4>
+                <h2>Let's Automate Your Future</h2>
+                <p>Reach out to us for consultations, quotes, or technical support.</p>
+                
+                <div class="info-item">
+                    <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div>
+                        <h5>Office Address</h5>
+                        <p>115A, Gali No. 1, Sector-66, Noida,<br>Uttar Pradesh 201301</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                    <div>
+                        <h5>Phone</h5>
+                        <p>+91 85272 66314</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div>
+                        <h5>Email</h5>
+                        <p>powerlogicautomation26@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-container" data-aos="fade-left">
+                <form id="contactForm" action="contact.php" method="POST">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder=" ">
+                        <label for="name">Full Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder=" ">
+                        <label for="email">Email Address</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="phone" name="phone" placeholder=" ">
+                        <label for="phone">Phone Number</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="4" required placeholder=" "></textarea>
+                        <label for="message">Project Details</label>
+                    </div>
+                    <input type="text" name="website" style="display:none !important" tabindex="-1" autocomplete="off">
+                    
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                    <div id="formMessage"></div>
                 </form>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 Powerlogic Automation. All Rights Reserved.</p>
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>PowerLogic</h3>
+                <p>Leading the way in industrial automation and electrical control systems</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Services</h3>
+                <ul>
+                    <li>PLC Automation</li>
+                    <li>VFD Solutions</li>
+                    <li>Control Panels</li>
+                    <li>Motion Control</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Powerlogic Automation. All Rights Reserved.</p>
+        </div>
     </footer>
 
+    <a href="https://wa.me/918527266314?text=Hi%20Powerlogic,%20I%20am%20interested%20in%20your%20services." class="whatsapp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
